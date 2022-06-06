@@ -280,3 +280,41 @@ button {
     border: solid 2px black;
     display: flex
 }
+
+/*MEDIA QUERIES 786*/
+@media (max-width: 786px) {
+    .popup{
+        width:80%;
+        justify-content: center;
+        align-items: center;
+        top:10%;
+        left: 10%;
+        right: 20%;
+    }
+    .popup_title{
+        width:80%;
+    }
+    .close_button{
+        width: 500px;
+        text-align: end;
+    }
+}
+/*MEDIA QUERIES 426*/
+@media (max-width: 426px) {
+    .popup{
+        width:80%;
+        height: 280px;
+        top:10%;
+        left: 10%;
+        right: 10%;
+    }
+    .popup_title{
+        width:80%;
+        margin: 0;
+    }
+    .close_button{
+        margin: 0;
+        width: 250px;
+        text-align: end;
+    }
+}

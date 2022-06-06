@@ -5,7 +5,7 @@ const close = document.querySelector(".close_button");
 const overlay = document.querySelector(".overlay");
 const restart = document.querySelector(".restart");
 const restartbtn = document.querySelector(".restart_button");
-
+const section = document.querySelector("section");
 let clickCount = 0
 button.addEventListener("click", function (event) {
     
@@ -33,3 +33,8 @@ close.addEventListener("click", function (event) {
     popup.style.transform = "scale(0)";
     overlay.style.display = "none";
 });;
+
+
+
+
+
