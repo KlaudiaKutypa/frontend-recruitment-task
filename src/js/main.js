@@ -24,6 +24,7 @@ restartbtn.addEventListener("click", function (event) {
     clickCount=0;
     popup.style.transform = "scale(0)";
     overlay.style.display = "none";
+    restart.style.display="none";
 });
 
 
