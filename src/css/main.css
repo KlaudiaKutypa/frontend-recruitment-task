@@ -213,11 +213,11 @@ button {
    }
 
 .popup{
-    position:fixed;
+    position: absolute;
     width: 910px;
-    height: 200px;
+   
   
-    top:35%;
+    top:10%;
     left: 15%;
     background-color: #FFFFFF;
     transform: scale(0);
@@ -233,6 +233,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .close_button {
@@ -265,6 +266,7 @@ button {
     align-items: center;
     margin-top: 10px;
     display: none;
+    margin-bottom: 20px;
 }
 
 .restart p{
